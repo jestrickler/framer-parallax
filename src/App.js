@@ -1,25 +1,55 @@
-import logo from './logo.svg';
-import './App.css';
+import { Parallax } from './Parallax'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+const App = () => (
+  <main>
+    <div className='w-full bg-[#06141D]'>
+      <Parallax />
+      <div className='mx-auto max-w-lg space-y-4 py-24 text-neutral-300'>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+          earum nobis quasi repellat. Amet facere nulla dolorum accusantium sit
+          dolores odio excepturi facilis laboriosam officiis dolorem, nobis
+          reprehenderit molestiae.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+          earum nobis quasi repellat. Amet facere nulla dolorum accusantium sit
+          dolores odio excepturi facilis laboriosam officiis dolorem, nobis
+          reprehenderit molestiae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+          earum nobis quasi repellat. Amet facere nulla dolorum accusantium sit
+          dolores odio excepturi facilis laboriosam officiis dolorem, nobis
+          reprehenderit molestiae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+          earum nobis quasi repellat. Amet facere nulla dolorum accusantium sit
+          dolores odio excepturi facilis laboriosam officiis dolorem, nobis
+          reprehenderit molestiae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+          earum nobis quasi repellat. Amet facere nulla dolorum accusantium sit
+          dolores odio excepturi facilis laboriosam officiis dolorem, nobis
+          reprehenderit molestiae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+          earum nobis quasi repellat. Amet facere nulla dolorum accusantium sit
+          dolores odio excepturi facilis laboriosam officiis dolorem, nobis
+          reprehenderit molestiae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam quae
+          earum nobis quasi repellat. Amet facere nulla dolorum accusantium sit
+          dolores odio excepturi facilis laboriosam officiis dolorem, nobis
+          reprehenderit molestiae.
+        </p>
+      </div>
     </div>
-  );
-}
+  </main>
+)
 
-export default App;
+export { App }

@@ -1,6 +1,12 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+https://github.com/TomIsLoading/framer-parallax \
+https://www.youtube.com/watch?v=29UWA-GdA7k
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
+node -v: v20.5.0\
+npm -v: 9.8.0
+
 
 ## Available Scripts
 
